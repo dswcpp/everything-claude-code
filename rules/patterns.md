@@ -1,3 +1,9 @@
+---
+description: Common design patterns including API response format, custom hooks, and repository pattern.
+globs: ["*.ts", "*.tsx", "*.js", "*.jsx"]
+alwaysApply: false
+---
+
 # Common Patterns
 
 ## API Response Format

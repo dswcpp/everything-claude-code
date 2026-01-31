@@ -1,3 +1,9 @@
+---
+description: General coding style rules emphasizing immutability, error handling, and code organization.
+globs: ["*.js", "*.ts", "*.jsx", "*.tsx"]
+alwaysApply: false
+---
+
 # Coding Style
 
 ## Immutability (CRITICAL)

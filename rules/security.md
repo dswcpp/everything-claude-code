@@ -1,3 +1,9 @@
+---
+description: Mandatory security checks, secret management, and security response protocol.
+globs: []
+alwaysApply: true
+---
+
 # Security Guidelines
 
 ## Mandatory Security Checks

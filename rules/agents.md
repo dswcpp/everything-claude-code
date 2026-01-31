@@ -1,3 +1,9 @@
+---
+description: Agent orchestration and multi-agent workflow guidelines for complex tasks.
+globs: []
+alwaysApply: true
+---
+
 # Agent Orchestration
 
 ## Available Agents

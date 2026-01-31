@@ -1,3 +1,9 @@
+---
+description: Performance optimization strategies including model selection, context window management, and build troubleshooting.
+globs: []
+alwaysApply: true
+---
+
 # Performance Optimization
 
 ## Model Selection Strategy

@@ -1,3 +1,9 @@
+---
+description: Claude Code hooks system configuration for pre/post tool use and session lifecycle.
+globs: []
+alwaysApply: true
+---
+
 # Hooks System
 
 ## Hook Types

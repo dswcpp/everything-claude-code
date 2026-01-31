@@ -1,3 +1,9 @@
+---
+description: Testing requirements including TDD workflow, minimum 80% coverage, and test types.
+globs: ["*.test.ts", "*.test.js", "*.spec.ts", "*.spec.js", "**/__tests__/**"]
+alwaysApply: false
+---
+
 # Testing Requirements
 
 ## Minimum Test Coverage: 80%

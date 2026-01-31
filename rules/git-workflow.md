@@ -1,3 +1,9 @@
+---
+description: Git commit message format, PR workflow, and feature implementation guidelines.
+globs: []
+alwaysApply: true
+---
+
 # Git Workflow
 
 ## Commit Message Format
