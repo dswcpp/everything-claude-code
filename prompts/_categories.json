@@ -1,0 +1,74 @@
+[
+  {
+    "id": "quickstart",
+    "name": "快捷提示词",
+    "icon": ":/icons/icons/command.svg",
+    "color": "#f5c2e7",
+    "description": "日常开发常用的快捷提示词",
+    "dirName": "quickstart"
+  },
+  {
+    "id": "code_review",
+    "name": "代码审查",
+    "icon": ":/icons/icons/search.svg",
+    "color": "#89b4fa",
+    "description": "代码质量、安全性、最佳实践审查",
+    "dirName": "code_review"
+  },
+  {
+    "id": "refactor",
+    "name": "代码重构",
+    "icon": ":/icons/icons/refresh.svg",
+    "color": "#a6e3a1",
+    "description": "重构、优化代码结构",
+    "dirName": "refactor"
+  },
+  {
+    "id": "optimize",
+    "name": "性能优化",
+    "icon": ":/icons/icons/command.svg",
+    "color": "#f9e2af",
+    "description": "性能分析、优化建议",
+    "dirName": "optimize"
+  },
+  {
+    "id": "debug",
+    "name": "Bug 调试",
+    "icon": ":/icons/icons/remove.svg",
+    "color": "#f38ba8",
+    "description": "定位问题、修复 Bug",
+    "dirName": "debug"
+  },
+  {
+    "id": "testing",
+    "name": "单元测试",
+    "icon": ":/icons/icons/check.svg",
+    "color": "#94e2d5",
+    "description": "编写测试用例",
+    "dirName": "testing"
+  },
+  {
+    "id": "document",
+    "name": "文档注释",
+    "icon": ":/icons/icons/info.svg",
+    "color": "#cba6f7",
+    "description": "添加注释、生成文档",
+    "dirName": "document"
+  },
+  {
+    "id": "explain",
+    "name": "代码解释",
+    "icon": ":/icons/icons/skill.svg",
+    "color": "#fab387",
+    "description": "解释代码逻辑",
+    "dirName": "explain"
+  },
+  {
+    "id": "generate",
+    "name": "代码生成",
+    "icon": ":/icons/icons/add.svg",
+    "color": "#74c7ec",
+    "description": "生成新代码",
+    "dirName": "generate"
+  }
+]

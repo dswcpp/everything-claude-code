@@ -107,8 +107,12 @@ everything-claude-code/
 |   |-- e2e-runner.md        # Playwright E2E 测试
 |   |-- refactor-cleaner.md  # 死代码清理
 |   |-- doc-updater.md       # 文档同步
-|   |-- go-reviewer.md       # Go 代码审查（新增）
-|   |-- go-build-resolver.md # Go 构建错误解决（新增）
+|   |-- go-reviewer.md       # Go 代码审查
+|   |-- go-build-resolver.md # Go 构建错误解决
+|   |-- cpp-reviewer.md      # C++ 代码审查（新增）
+|   |-- cpp-build-resolver.md # C++ 构建错误解决（新增）
+|   |-- qt-reviewer.md       # Qt/QML 代码审查（新增）
+|   |-- embedded-reviewer.md # 嵌入式 C/C++ 审查（新增）
 |
 |-- skills/           # 工作流定义和领域知识
 |   |-- coding-standards/           # 语言最佳实践
@@ -122,8 +126,12 @@ everything-claude-code/
 |   |-- security-review/            # 安全检查清单
 |   |-- eval-harness/               # 验证循环评估（详细指南）
 |   |-- verification-loop/          # 持续验证（详细指南）
-|   |-- golang-patterns/            # Go 惯用语和最佳实践（新增）
-|   |-- golang-testing/             # Go 测试模式、TDD、基准测试（新增）
+|   |-- golang-patterns/            # Go 惯用语和最佳实践
+|   |-- golang-testing/             # Go 测试模式、TDD、基准测试
+|   |-- cpp-patterns/               # 现代 C++ 模式和惯用法（新增）
+|   |-- cpp-testing/                # C++ 测试（GTest、Catch2）（新增）
+|   |-- qt-patterns/                # Qt/QML 开发模式（新增）
+|   |-- embedded-cpp/               # 嵌入式 C/C++ 模式（新增）
 |
 |-- commands/         # 用于快速执行的斜杠命令
 |   |-- tdd.md              # /tdd - 测试驱动开发
@@ -136,9 +144,13 @@ everything-claude-code/
 |   |-- checkpoint.md       # /checkpoint - 保存验证状态（详细指南）
 |   |-- verify.md           # /verify - 运行验证循环（详细指南）
 |   |-- setup-pm.md         # /setup-pm - 配置包管理器
-|   |-- go-review.md        # /go-review - Go 代码审查（新增）
-|   |-- go-test.md          # /go-test - Go TDD 工作流（新增）
-|   |-- go-build.md         # /go-build - 修复 Go 构建错误（新增）
+|   |-- go-review.md        # /go-review - Go 代码审查
+|   |-- go-test.md          # /go-test - Go TDD 工作流
+|   |-- go-build.md         # /go-build - 修复 Go 构建错误
+|   |-- cpp-review.md       # /cpp-review - C++ 代码审查（新增）
+|   |-- cpp-test.md         # /cpp-test - C++ TDD 工作流（新增）
+|   |-- cpp-build.md        # /cpp-build - 修复 C++ 构建错误（新增）
+|   |-- qt-review.md        # /qt-review - Qt 代码审查（新增）
 |   |-- skill-create.md     # /skill-create - 从 git 历史生成技能（新增）
 |   |-- instinct-status.md  # /instinct-status - 查看学习的直觉（新增）
 |   |-- instinct-import.md  # /instinct-import - 导入直觉（新增）
@@ -148,6 +160,7 @@ everything-claude-code/
 |-- rules/            # 始终遵循的指南（复制到 ~/.claude/rules/）
 |   |-- security.md         # 强制性安全检查
 |   |-- coding-style.md     # 不可变性、文件组织
+|   |-- cpp-coding-style.md # C++ 编码规范（新增）
 |   |-- testing.md          # TDD、80% 覆盖率要求
 |   |-- git-workflow.md     # 提交格式、PR 流程
 |   |-- agents.md           # 何时委托给子代理
@@ -413,7 +426,7 @@ node tests/hooks/hooks.test.js
 
 ### 贡献想法
 
-- 特定语言的技能（Python、Rust 模式）- 现已包含 Go！
+- 特定语言的技能（Python、Rust 模式）- 现已包含 Go 和 C++！
 - 特定框架的配置（Django、Rails、Laravel）
 - DevOps 代理（Kubernetes、Terraform、AWS）
 - 测试策略（不同框架）

@@ -30,3 +30,5 @@ examples/sessions/*.tmp
 
 # Local drafts
 marketing/
+
+tools/

@@ -109,8 +109,12 @@ everything-claude-code/
 |   |-- e2e-runner.md        # Playwright E2E testing
 |   |-- refactor-cleaner.md  # Dead code cleanup
 |   |-- doc-updater.md       # Documentation sync
-|   |-- go-reviewer.md       # Go code review (NEW)
-|   |-- go-build-resolver.md # Go build error resolution (NEW)
+|   |-- go-reviewer.md       # Go code review
+|   |-- go-build-resolver.md # Go build error resolution
+|   |-- cpp-reviewer.md      # C++ code review (NEW)
+|   |-- cpp-build-resolver.md # C++ build error resolution (NEW)
+|   |-- qt-reviewer.md       # Qt/QML code review (NEW)
+|   |-- embedded-reviewer.md # Embedded C/C++ review (NEW)
 |
 |-- skills/           # Workflow definitions and domain knowledge
 |   |-- coding-standards/           # Language best practices
@@ -124,8 +128,12 @@ everything-claude-code/
 |   |-- security-review/            # Security checklist
 |   |-- eval-harness/               # Verification loop evaluation (Longform Guide)
 |   |-- verification-loop/          # Continuous verification (Longform Guide)
-|   |-- golang-patterns/            # Go idioms and best practices (NEW)
-|   |-- golang-testing/             # Go testing patterns, TDD, benchmarks (NEW)
+|   |-- golang-patterns/            # Go idioms and best practices
+|   |-- golang-testing/             # Go testing patterns, TDD, benchmarks
+|   |-- cpp-patterns/               # Modern C++ patterns and idioms (NEW)
+|   |-- cpp-testing/                # C++ testing with GTest, Catch2 (NEW)
+|   |-- qt-patterns/                # Qt/QML development patterns (NEW)
+|   |-- embedded-cpp/               # Embedded C/C++ patterns (NEW)
 |
 |-- commands/         # Slash commands for quick execution
 |   |-- tdd.md              # /tdd - Test-driven development
@@ -138,9 +146,13 @@ everything-claude-code/
 |   |-- checkpoint.md       # /checkpoint - Save verification state (Longform Guide)
 |   |-- verify.md           # /verify - Run verification loop (Longform Guide)
 |   |-- setup-pm.md         # /setup-pm - Configure package manager
-|   |-- go-review.md        # /go-review - Go code review (NEW)
-|   |-- go-test.md          # /go-test - Go TDD workflow (NEW)
-|   |-- go-build.md         # /go-build - Fix Go build errors (NEW)
+|   |-- go-review.md        # /go-review - Go code review
+|   |-- go-test.md          # /go-test - Go TDD workflow
+|   |-- go-build.md         # /go-build - Fix Go build errors
+|   |-- cpp-review.md       # /cpp-review - C++ code review (NEW)
+|   |-- cpp-test.md         # /cpp-test - C++ TDD workflow (NEW)
+|   |-- cpp-build.md        # /cpp-build - Fix C++ build errors (NEW)
+|   |-- qt-review.md        # /qt-review - Qt code review (NEW)
 |   |-- skill-create.md     # /skill-create - Generate skills from git history (NEW)
 |   |-- instinct-status.md  # /instinct-status - View learned instincts (NEW)
 |   |-- instinct-import.md  # /instinct-import - Import instincts (NEW)
@@ -150,6 +162,7 @@ everything-claude-code/
 |-- rules/            # Always-follow guidelines (copy to ~/.claude/rules/)
 |   |-- security.md         # Mandatory security checks
 |   |-- coding-style.md     # Immutability, file organization
+|   |-- cpp-coding-style.md # C++ specific coding standards (NEW)
 |   |-- testing.md          # TDD, 80% coverage requirement
 |   |-- git-workflow.md     # Commit format, PR process
 |   |-- agents.md           # When to delegate to subagents
@@ -442,7 +455,7 @@ Please contribute! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ### Ideas for Contributions
 
-- Language-specific skills (Python, Rust patterns) - Go now included!
+- Language-specific skills (Python, Rust patterns) - Go and C++ now included!
 - Framework-specific configs (Django, Rails, Laravel)
 - DevOps agents (Kubernetes, Terraform, AWS)
 - Testing strategies (different frameworks)
